@@ -1,6 +1,6 @@
 package com.company;
 
-public class City {
+public class City implements Comparable<City> {
     private int id;
     private String name;
     private String region;
@@ -73,5 +73,10 @@ public class City {
         this.district = district;
         this.population = population;
         this.foundation = foundation;
+    }
+
+    @Override
+    public int compareTo(City o) {
+        return 0;
     }
 }

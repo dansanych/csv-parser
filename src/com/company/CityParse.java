@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Scanner;
 
 
-public class CityTools {
+public class CityParse {
 
     private static final String FILEPATH = "src/resources/city_ru.csv";
 
