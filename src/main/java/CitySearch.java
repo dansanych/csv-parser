@@ -1,5 +1,3 @@
-package com.company;
-
 import java.text.NumberFormat;
 import java.util.Comparator;
 import java.util.HashMap;

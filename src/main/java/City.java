@@ -1,5 +1,3 @@
-package com.company;
-
 public class City implements Comparable<City> {
     private int id;
     private String name;
