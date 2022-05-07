@@ -2,7 +2,7 @@
 .out/*
 
 *.class
-
+*.iml
 *.jar
 *.war
 *.ear
