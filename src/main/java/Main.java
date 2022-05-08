@@ -23,12 +23,15 @@ public class Main {
             switch (args[1]) {
                 case "1":
                     CitySort.sortByNameLambda(cityList);
+                    CityParse.output(cityList);
                     break;
                 case "2":
                     CitySort.sortByNameComparator(cityList);
+                    CityParse.output(cityList);
                     break;
                 case "3":
                     CitySort.sortInDistrictByNameComparator(cityList);
+                    CityParse.output(cityList);
                     break;
                 case "0":
                     break;
